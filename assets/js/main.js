@@ -7,6 +7,4 @@ form.addEventListener("submit", (e)=>{
 
     window.location.href = "/festival-greeting-app/greeting.html?name=" + greeterName;
     
-    
-    console.log(getGreeterName);
 })
