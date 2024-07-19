@@ -5,6 +5,17 @@ form.addEventListener("submit", (e)=>{
 
     const greeterName = e.target[0].value;
 
-    window.location.href = "/festival-greeting-app/greeting.html?name=" + greeterName;
-    
+    window.location.href = 
+        "/festival-greeting-app/greeting.html?name=" + greeterName;
+        console.log("Form submitting happened!");
 })
+
+
+
+
+
+
+
+
+
+

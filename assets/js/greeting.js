@@ -13,7 +13,7 @@ fireworks.start()
 
     if(getGreeterName){
         greeterNameEl.textContent = getGreeterName;
-    }/* else{
+    }else{
         location.href = "/festival-greeting-app/index.html"
-    } */
+    }
     
